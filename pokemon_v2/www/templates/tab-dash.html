@@ -1,0 +1,39 @@
+<ion-view view-title="Cp Calculator">
+  <ion-content class="padding">
+   <div class="card" >
+        <label class="item item-input">
+          <i class="icon icon-left ion-person placeholder-icon" id="ic"></i>
+          <angucomplete id="ex1" placeholder="Enter your pokemon name" pause="100" selectedobject="selectedCountry" localdata="countries" searchfields="name" titlefield="name" minlength="1" inputclass="form-control form-control-small" matchclass="highlight" style="width:100%;color:cadetblue;" />
+
+<!--           <input class="icon icon-left ion-person" type="text" id="inputfield" placeholder="Enter Your Pokemon Name">
+ -->        </label>
+      <label class="item item-input">
+        <i class="icon icon-left ion-ios-speedometer placeholder-icon" id="ic"></i>
+          <input  id="cpinput" type="text" ng-model="cp" placeholder="Enter Your Pokemon Cp">
+      </label>
+
+    </div>
+    <div class="card" >
+    <div class="row">
+      <div class="col">
+          <h5>Evolved Pokemon</h5><br>
+      </div>
+      <div class="col">
+          <span id="result1">{{evolvedPokemon}}</span>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col">
+          <h5>Pokemon Cp</h5><br>
+      </div>
+      <div class="col">
+          <span id="result1">{{evolvedPokemonCp}}</span>
+      </div>
+    </div>
+    </div>
+    <button class="button button-positive button-block icon-left ion-ios-calculator" 
+    id="btn"  ng-click="test(selectedCountry.originalObject.name,selectedCountry.originalObject.code,selectedCountry.originalObject.evolution,cp)">Click to Calculate</button>
+<!--     <button class="button button-positive button-block icon-left ion-ios-calculator">Click to Calculate</button>
+ -->  </ion-content>
+</ion-view>

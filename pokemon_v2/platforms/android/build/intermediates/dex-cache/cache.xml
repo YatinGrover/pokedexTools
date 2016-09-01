@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="C:\Users\Parth\Desktop\pokemon_v1\platforms\android\build\intermediates\exploded-aar\android\CordovaLib\unspecified\debug\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="739cf3166e5b04ca183fdcb0b21319f4f2641092">
+        <dex dex="C:\Users\Parth\Desktop\pokemon_v1\platforms\android\build\intermediates\pre-dexed\debug\CordovaLib-unspecified-debug_745cf3bc84a3ed37dce6c4c0bad1efea13d16161.jar" />
+    </item>
+
+</items>
